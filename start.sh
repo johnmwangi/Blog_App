@@ -1,4 +1,4 @@
-export MOVIE_API_KEY=<Your api key>
-export SECRET_KEY=<Your secret key>
-
+export MAIL_USERNAME="jonesmwas356@gmail.com"
+export MAIL_PASSWORD="mwangi"
+SECRET_KEY="john"
 python3.6 manage.py server
