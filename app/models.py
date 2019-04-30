@@ -89,8 +89,7 @@ class Role(db.Model):
     name = db.Column(db.String(60), unique=True)
     description = db.Column(db.String(200))
 
-    def __repr__(self):
-        return '<Role: {}>'.format(self.name)
+
 
 class Subscriber(UserMixin, db.Model):
    __tablename__="subscribers"
