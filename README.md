@@ -1,9 +1,10 @@
 # Blog
 
-## Built By [John Mwangi](link)
+## Built By [John Mwangi](https://blogmwasjohn.herokuapp.com/
+[])
 
 ## Description
-Blog is an application that allows user to view blog, posts, submitted and comment on them and leave any feedback.
+Blog is an application that allows user to view blog,add blog and comment on them or leave any feedback.
 
 
 ## User Stories
