@@ -17,7 +17,7 @@ def index():
     blogs = Blogs.query.order_by(Blogs.date.desc()).all()
 
 
-    title= "Emdee's Blog"
+    title= "Jones Blog"
     return render_template('index.html',title=title, blogs=blogs)
 
 @main.route('/user/<uname>')
@@ -215,7 +215,7 @@ def subscriber():
 
         mail_message("Hello, Welcome To Emdee's Blog.","email/welcome_subscriber",subscriber.email,subscriber=subscriber)
 
-        title= "Emdee's Blog"
+        title= "jones Blog"
         return render_template('index.html',title=title, blogs=blogs)
 
     subscriber = Blogs.query.all()
