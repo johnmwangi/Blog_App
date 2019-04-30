@@ -1,7 +1,9 @@
 # Blog
 
-## Built By [John Mwangi](https://blogmwasjohn.herokuapp.com/
-[])
+## Built By [John Mwangi]
+
+##Check it out:(https://blogmwasjohn.herokuapp.com/)
+
 
 ## Description
 Blog is an application that allows user to view blog,add blog and comment on them or leave any feedback.
@@ -49,7 +51,7 @@ Users would like to:
 ### Cloning
 * In your terminal:
 
-       *  git clone (link)
+       *  git clone (https://blogmwasjohn.herokuapp.com/)
 
 
 ## Running the Application
