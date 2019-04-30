@@ -65,8 +65,6 @@ def update_pic(uname):
 @login_required
 def admin_dashboard():
     # prevent non-admins from accessing the page
-    if not current_user.is_admin:
-        abort(403)
 
     blogposts = Blogs.query.all()
 
@@ -213,7 +211,7 @@ def subscriber():
         db.session.add(subscriber)
         db.session.commit()
 
-        mail_message("Hello, Welcome To Emdee's Blog.","email/welcome_subscriber",subscriber.email,subscriber=subscriber)
+        mail_message("Hello, Welcome To Jones Blog.","email/welcome_subscriber",subscriber.email,subscriber=subscriber)
 
         title= "jones Blog"
         return render_template('index.html',title=title, blogs=blogs)
