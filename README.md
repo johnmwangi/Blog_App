@@ -2,7 +2,7 @@
 
 ## Built By [John Mwangi]
 
-##Check it out:(https://blogmwasjohn.herokuapp.com/)
+## Check it out:(https://blogmwasjohn.herokuapp.com/)
 
 
 ## Description
